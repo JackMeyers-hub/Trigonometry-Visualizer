@@ -1,2 +1,2 @@
 # Trigonometry Visualizer 
- small application demonstrating use of cos() and sin()
+ small Java application demonstrating use of cos() and sin()
