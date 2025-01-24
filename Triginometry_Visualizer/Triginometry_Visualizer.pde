@@ -39,7 +39,7 @@ void draw() {
     ellipse(center.x, center.y, 400, 400);
     popMatrix();
     textSize(13);
-    text("[space] : toggle unit circle (on)", 10, 15);
+    text("[space] : toggle unit circle (on)", 7, 17);
 
 
     float dist = 1.000; 
@@ -120,7 +120,7 @@ void draw() {
     line(center.x, center.y, mouse.x, mouse.y);
     popMatrix();
         textSize(13);
-    text("[space] : toggle unit circle (off)", 10, 15);
+    text("[space] : toggle unit circle (off)", 7, 17);
     float xTextX = center.x + mouse.x/2 - 125;
     float yTextY = center.y + mouse.y/2 - 125;
     float dist = dist(center.x, center.y, mouse.x, mouse.y);
